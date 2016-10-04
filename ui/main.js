@@ -21,6 +21,6 @@ span.innerHTML = counter.toString();
 };
 
 // Make a request
-request.open('GET','http://anirudhsrinath1991.imad.hasura-app.io/','true')
+request.open('GET', 'http://anirudhsrinath1991.imad.hasura-app.io/counter','true')
 request.send(null);
 }
